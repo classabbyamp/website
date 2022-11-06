@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{%- block title -%}
+404 (page not found) - {{ super() }}
+{%- endblock title -%}
+
+{%- block ogtitle -%}
+404 (page not found)
+{%- endblock ogtitle -%}
+
+{%- block header -%}
+<nav><a href="{{ config.base_url }}">&lt; back</a></nav>
+{%- endblock header -%}
+
+{%- block content -%}
+<h1 class="title">404 (page not found)</h1>
+{%- endblock content -%}

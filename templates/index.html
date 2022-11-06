@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>hi</h1>
+
+i'm classabbyamp
+
+<h2>projects</h2>
+<ul>
+    {% for p in section.extra.projects %}
+    <li><a href="{{ p.url }}">{{ p.name | markdown(inline=true) | safe }}</a>: {{ p.desc | markdown(inline=true) | safe }}</li>
+    {% endfor %}
+</ul>
+
+i also spend a lot of time contributing to <a href="https://voidlinux.org">void linux</a>
+
+<h2>contact</h2>
+<ul>
+    {% for c in section.extra.contact %}
+    <li>{{ c | markdown(inline=true) | safe }}</li>
+    {% endfor %}
+</ul>
+
+résumé available upon request
+
+{% if section.pages %}
+<h2>blog <a id="atom" href="/atom.xml">(feed)</a></h2>
+<p>
+{% for post in section.pages | sort(attribute="date") | reverse %}
+    {{ post.date | date(format="%d %b %Y") | lower }}: <a href="{{ post.permalink }}">{{ post.title }}</a><br>
+{% endfor %}
+</p>
+{% endif %}
+{% endblock content %}

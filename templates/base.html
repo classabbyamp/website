@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta property="og:site_name" content="{{ config.title }}" />
+        <meta property="og:title" content="{% block ogtitle %}{{ config.title }}{% endblock ogtitle %}" />
+        <meta property="og:description" content="{% block description %}{{ config.description }}{% endblock description %}" />
+        <meta property="theme-color" content="#423663" />
+        <link rel="shortcut icon" href="{{ get_url(path='favicon.png', trailing_slash=false) }}" type="image/png">
+        <link rel="icon" href="{{ get_url(path='favicon.png', trailing_slash=false) }}" type="image/png">
+        <link rel="stylesheet" href="{{ get_url(path='style.css', trailing_slash=false) }}">
+        <link rel="alternate" type="application/atom+xml" title="{{ config.title }} blog" href="{{ get_url(path='atom.xml', trailing_slash=false) }}">
+        <title>{%- block title -%}{{ config.title }}{% endblock title %}</title>
+        {% block head %}
+        {% endblock head %}
+    </head>
+    <body>
+        <a id=skip href="#content">skip to main content</a>
+        <header>
+        {% block header %}{% endblock header %}
+        </header>
+        <main id=content>
+        {% block precontent %}{% endblock precontent %}
+        {% block content %}{% endblock content %}
+        </main>
+        <footer>
+        {%- block footer -%}
+        &copy; {{ now() | date(format="%Y") }} classabbyamp
+        {%- endblock footer -%}
+        </footer>
+    </body>
+</html>
