@@ -7,6 +7,11 @@ contact = [
 ]
 
 [[extra.projects]]
+name = "xmirror"
+desc = "interactive script for changing XBPS mirrors"
+url = "https://github.com/void-linux/xmirror"
+
+[[extra.projects]]
 name = "motdd"
 desc = "simple script to manage `/etc/motd`"
 url = "https://github.com/classabbyamp/motdd"
