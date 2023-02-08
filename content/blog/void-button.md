@@ -38,7 +38,7 @@ You can attribute me as the author if you'd like, but it's not required.
 
 Please don't hotlink these images, I give no guarantee that they will stay here forever.
 
-**Animated:** [88x31 gif](/blog/void-button/void-button-anim.gif) | [352x124 gif](/blog/void-button/void-button-4x-anim.gif)
+**Animated:** [88x31 gif](/blog/void-button/void-button-anim.gif) | [176x62 gif](/blog/void-button/void-button-2x-anim.gif) | [352x124 gif](/blog/void-button/void-button-4x-anim.gif)
 
-**Static:** [88x31 gif](/blog/void-button/void-button.gif) | [88x31 png](/blog/void-button/void-button.png) | [352x124 gif](/blog/void-button/void-button-4x.gif) | [352x124 png](/blog/void-button/void-button-4x.png)
+**Static:** [88x31 gif](/blog/void-button/void-button.gif) | [88x31 png](/blog/void-button/void-button.png) | [176x62 gif](/blog/void-button/void-button-2x.gif) | [176x62 png](/blog/void-button/void-button-2x.png) | [352x124 gif](/blog/void-button/void-button-4x.gif) | [352x124 png](/blog/void-button/void-button-4x.png)
 
