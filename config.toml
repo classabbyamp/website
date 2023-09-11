@@ -13,4 +13,9 @@ highlight_code = true
 highlight_theme = "dracula"
 smart_punctuation = false
 
+[link_checker]
+skip_anchor_prefixes = [
+    "https://github.com/classabbyamp/mkinitcpio-tailscale/blob/master/README.md",
+]
+
 [extra]
