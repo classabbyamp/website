@@ -9,7 +9,11 @@
 {%- endblock ogtitle -%}
 
 {%- block description -%}
-{{ page.description | default(value=page.summary | safe) | default(value=super()) | striptags }}
+{%- if page.description -%}
+{{ page.description | striptags | linebreaksb | replace(from="<br>", to=" ") | trim | safe }}
+{%- elif page.summary -%}
+{{ page.summary | striptags | linebreaksbr | replace(from="<br>", to=" ") | trim | safe }}
+{%- endif -%}
 {%- endblock description -%}
 
 {%- block header -%}
