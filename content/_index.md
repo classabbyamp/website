@@ -7,6 +7,11 @@ contact = [
 ]
 
 [[extra.projects]]
+name = "mkinitcpio-tailscale"
+desc = "hook for mkinitcpio to enable tailscale access in early userspace"
+url = "https://github.com/classabbyamp/mkinitcpio-tailscale"
+
+[[extra.projects]]
 name = "xmirror"
 desc = "interactive script for changing XBPS mirrors"
 url = "https://github.com/void-linux/xmirror"
