@@ -46,3 +46,13 @@ name = "grid tools"
 desc = "python library for using and converting maidenhead grid locators"
 url = "https://github.com/miaowware/gridtools"
 +++
+
+i also spend a lot of time contributing to [void linux](https://voidlinux.org)
+
+## photography
+
+my photographic misadventures can be found at [gallery.placeviolette.net](https://gallery.placeviolette.net)
+
+## pgp
+
+my pgp key fingerprint is `E86D 0166 B797 A1E0 71F9  ED04 6BE0 7559 18A4 C7F5`, and can be found [here](/classabbyamp.asc)
