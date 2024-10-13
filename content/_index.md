@@ -51,7 +51,7 @@ i also spend a lot of time contributing to [void linux](https://voidlinux.org)
 
 ## photography
 
-my photographic misadventures can be found at [gallery.placeviolette.net](https://gallery.placeviolette.net)
+my photographic misadventures can be found at [gallery.placeviolette.net](https://gallery.placeviolette.net/gallery)
 
 ## pgp
 
