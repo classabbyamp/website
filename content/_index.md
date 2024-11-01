@@ -49,9 +49,12 @@ url = "https://github.com/miaowware/gridtools"
 
 i also spend a lot of time contributing to [void linux](https://voidlinux.org)
 
+<!--
+site down :(
 ## photography
 
 my photographic misadventures can be found at [gallery.placeviolette.net](https://gallery.placeviolette.net/gallery)
+-->
 
 ## pgp
 
