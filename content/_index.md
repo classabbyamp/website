@@ -3,7 +3,7 @@
 contact = [
     "[classabbyamp](https://github.com/classabbyamp) on github",
     "`web at placeviolette.net` by email",
-    "`abby` on irc (libera.chat and oftc.net)",
+    "`abby` on irc (libera.chat, oftc.net, and tilde.chat)",
 ]
 
 [[extra.projects]]
