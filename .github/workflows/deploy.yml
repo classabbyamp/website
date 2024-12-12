@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: classabbyamp/treeless-checkout-action@v1
       - name: Zola Build
-        uses: shalzz/zola-deploy-action@v0.16.1-1
+        uses: shalzz/zola-deploy-action@v0.19.2
         env:
           CHECK_LINKS: true
           BUILD_ONLY: true
