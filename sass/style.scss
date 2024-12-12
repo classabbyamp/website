@@ -46,11 +46,17 @@ img {
     max-width: 100%;
 }
 
+code {
+  font-family: monospace;
+  font-size: 1.1em;
+}
+
 pre {
     padding: 1rem;
     border-radius: 5px;
     overflow-x: auto;
     font-family: monospace;
+    font-size: 1.1em;
 
     table {
         width: 100%;
@@ -107,6 +113,19 @@ h1.title {
 footer {
     padding-top: 2.5rem;
     text-align: center;
+}
+
+@counter-style technote {
+  system: numeric;
+  symbols: "0" "1" "2" "3" "4" "5" "6" "7" "8" "9";
+  prefix: "TN-";
+  pad: 3 "0";
+  suffix: ": ";
+}
+
+ol.technote {
+  list-style: technote;
+  padding-left: 4.5em;
 }
 
 #skip {

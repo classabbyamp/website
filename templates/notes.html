@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{%- block header -%}
+<nav><a href="{{ config.base_url }}">&lt; home</a></nav>
+{%- endblock header -%}
+
+{% block content %}
+
+{{ section.content | safe }}
+
+<ol class="technote">
+{% for post in section.pages | sort(attribute="slug") %}
+    <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
+{% endfor %}
+</ol>
+{% endblock content %}
