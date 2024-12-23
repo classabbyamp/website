@@ -2,10 +2,15 @@ $bg: #423663;
 $fg: #fafafa;
 $fg-active: #f7a8da;
 
+@import "fonts";
+
+:root {
+  font-family: InterVariable, sans-serif;
+}
+
 html {
     background-color: $bg;
     color: $fg;
-    font-family: sans-serif;
     padding: 3vw;
 }
 
@@ -47,16 +52,16 @@ img {
 }
 
 code {
-  font-family: monospace;
-  font-size: 1.1em;
+  font-family: Iosevka, monospace;
+  font-size: 0.95em;
 }
 
 pre {
     padding: 1rem;
     border-radius: 5px;
     overflow-x: auto;
-    font-family: monospace;
-    font-size: 1.1em;
+    font-family: Iosevka, monospace;
+    font-size: 0.95em;
 
     table {
         width: 100%;

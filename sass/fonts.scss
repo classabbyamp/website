@@ -1,0 +1,18 @@
+@mixin font($name, $weight, $style, $filename) {
+  @font-face {
+    font-family: $name;
+    font-display: swap;
+    font-weight: $weight;
+    font-stretch: normal;
+    font-style: $style;
+    src: url('fonts/#{$filename}.woff2') format('woff2');
+  }
+}
+
+@include font(Iosevka, 400, normal, Iosevka-Regular);
+@include font(Iosevka, 400, oblique, Iosevka-Oblique);
+@include font(Iosevka, 700, normal, Iosevka-Bold);
+@include font(Iosevka, 700, oblique, Iosevka-BoldOblique);
+
+@include font(InterVariable, 100 900, normal, InterVariable);
+@include font(InterVariable, 100 900, italic, InterVariable-Italic);

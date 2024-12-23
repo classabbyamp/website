@@ -10,7 +10,7 @@
 
 {%- block description -%}
 {%- if page.description -%}
-{{ page.description | striptags | linebreaksb | replace(from="<br>", to=" ") | trim | safe }}
+{{ page.description | striptags | linebreaksbr | replace(from="<br>", to=" ") | trim | safe }}
 {%- elif page.summary -%}
 {{ page.summary | striptags | linebreaksbr | replace(from="<br>", to=" ") | trim | safe }}
 {%- endif -%}
