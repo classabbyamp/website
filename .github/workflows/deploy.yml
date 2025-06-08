@@ -20,13 +20,13 @@ jobs:
     steps:
       - uses: classabbyamp/treeless-checkout-action@v1
       - name: Zola Build
-        uses: shalzz/zola-deploy-action@v0.19.2
+        uses: shalzz/zola-deploy-action@v0.20.0
         env:
           CHECK_LINKS: true
           BUILD_ONLY: true
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
   deploy:
@@ -38,4 +38,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
