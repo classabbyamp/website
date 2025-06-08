@@ -40,7 +40,7 @@ Then, generate an [auth key](https://login.tailscale.com/admin/settings/keys) an
 
 ![Tailscale auth key generation dialog, with settings shown as described](/blog/zfsbootmenu-tailscale/auth-key.png)
 
-Next, install [mkinitcpio-tailscale](https://github.com/classabbyamp/mkinitcpio-tailscale) (it's packaged for Void Linux and [maybe other distros](https://repology.org/project/mkinitcpio-tailscale/versions)) and use the provided script to authenticate to Tailscale:
+Next, install [mkinitcpio-tailscale](https://github.com/classabbyamp/mkinitcpio-tailscale) (it's packaged for Void Linux and [maybe other distros](https://repology.org/project/mkinitcpio-tailscale-classabbyamp/versions)) and use the provided script to authenticate to Tailscale:
 
 ```
 # mkinitcpio-tailscale-setup -k /tmp/mk-ts-authkey
