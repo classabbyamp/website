@@ -42,6 +42,8 @@ blockquote {
 
 hr {
     width: 50%;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
 }
 
 img {
@@ -118,6 +120,11 @@ h1.title {
 footer {
     padding-top: 2.5rem;
     text-align: center;
+
+    .buttons > a {
+        display: inline-block;
+        padding: 0.2rem;
+    }
 }
 
 @counter-style technote {

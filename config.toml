@@ -19,3 +19,7 @@ skip_anchor_prefixes = [
 ]
 
 [extra]
+buttons = [
+    { url = "https://voidlinux.org", src = "/blog/void-button/void-button-anim.gif" },
+    { url = "https://alyx.sh", src = "https://alyx.sh/images/88x31/alyxv2.png" },
+]

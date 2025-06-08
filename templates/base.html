@@ -28,8 +28,14 @@
         </main>
         <footer>
         {%- block footer -%}
-        <img src="/blog/void-button/void-button-anim.gif" alt="an animated, geocities-style icon that reads 'Powered by Void'" />
-        <p>&copy; {{ now() | date(format="%Y") }} classabbyamp</p>
+        <p>&copy; {{ now() | date(format='%Y') }} classabbyamp</p>
+        <img src="/88x31/placeviolette@2x.png" width=88 height=31 />
+        <hr>
+        <div class="buttons">
+            {% for btn in config.extra.buttons %}
+            <a href="{{ btn.url }}"><img src="{{ btn.src }}" width=88 height=31 /></a>
+            {% endfor %}
+        </div>
         {%- endblock footer -%}
         </footer>
     </body>
