@@ -7,6 +7,11 @@ contact = [
 ]
 
 [[extra.projects]]
+name = "convoyeur"
+desc = "IRCv3 FILEHOST extension adapter to external file upload services"
+url = "https://github.com/classabbyamp/convoyeur"
+
+[[extra.projects]]
 name = "mkinitcpio-tailscale"
 desc = "hook for mkinitcpio to enable tailscale access in early userspace"
 url = "https://github.com/classabbyamp/mkinitcpio-tailscale"
