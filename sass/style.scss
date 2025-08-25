@@ -55,7 +55,7 @@ img {
 
 code {
   font-family: Iosevka, monospace;
-  font-size: 1em;
+  font-size-adjust: from-font;
 }
 
 pre {
@@ -63,7 +63,7 @@ pre {
     border-radius: 5px;
     overflow-x: auto;
     font-family: Iosevka, monospace;
-    font-size: 1em;
+    font-size-adjust: from-font;
 
     table {
         width: 100%;
