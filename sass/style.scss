@@ -112,9 +112,8 @@ h1.title {
     margin-bottom: 0.25rem;
 }
 
-#wordcount {
-    font-style: italic;
-    padding-bottom: 0.5rem;
+article p {
+  text-align: justify;
 }
 
 footer {
@@ -125,6 +124,40 @@ footer {
         display: inline-block;
         padding: 0.2rem;
     }
+}
+
+.footnote-reference {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.footnote-definition {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  overflow-x: auto;
+  margin: 20px 0;
+  padding-block-end: 5px;
+
+  sup {
+    display: inline-block;
+    margin-right: 0.5em;
+    font-size: inherit;
+    vertical-align: baseline;
+
+    &::after {
+      content: ".";
+    }
+  }
+
+  p:first-of-type {
+    display: inline;
+  }
+
+  p:not(:first-of-type) {
+    margin-top: 0.5em;
+  }
 }
 
 @counter-style technote {
